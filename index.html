@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Bonjour depuis Git</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+
+        <style>/* Minimal styling for a pleasant single-page look */
+:root{
+  --bg1: #f6d365;
+  --bg2: #fda085;
+  --text: #1b1b1b;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(135deg,var(--bg1),var(--bg2));
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+main.center{
+  text-align:center;
+  padding:2.25rem 2.5rem;
+  border-radius:14px;
+  background: rgba(255,255,255,0.12);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  backdrop-filter: blur(6px);
+  max-width:900px;
+}
+h1{font-size:clamp(1.6rem,4.5vw,3rem);margin:0;font-weight:600}
+.lead{margin-top:0.7rem;font-weight:300;opacity:0.96;font-size:clamp(1rem,2.5vw,1.2rem)}
+</style>
+	</head>
+	<body>
+		<main class="center">
+			<h1>Bonjour depuis Git !</h1>
+			<p class="lead">Ceci est ma première page envoyée via Git.</p>
+		</main>
+	</body>
+</html>
